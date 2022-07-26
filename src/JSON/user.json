@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "name": "Jhon",
+      "email": "jhondoe@mail.com",
+      "steps": {
+        "stepsWalked": 1422,
+        "stepsTarget": 2000
+      },
+      "date": {
+        "performedDate": "22-07-2022",
+        "scheduledDate": "20-08-2022"
+      },
+      "calories": {
+        "calorieIntake": 2547,
+        "calorieTarget": 4000
+      },
+      "proteins": {
+        "proteinConsumed": 55,
+        "proteinTarget": 70
+      },
+      "carb": {
+        "carbConsumed": 35,
+        "carbTarget": 70
+      },
+      "fat": {
+        "fatConsumed": 50,
+        "fatTarget": 70
+      }
+    },
+    {
+      "userId": 2,
+      "name": "James",
+      "email": "james@mail.com",
+      "steps": {
+        "stepsWalked": 1322,
+        "stepsTarget": 2000
+      },
+      "date": {
+        "performedDate": "15-07-2022",
+        "scheduledDate": "21-08-2022"
+      },
+      "calories": {
+        "calorieIntake": 2163,
+        "calorieTarget": 4000
+      },
+      "proteins": {
+        "proteinConsumed": 52,
+        "proteinTarget": 70
+      },
+      "carb": {
+        "carbConsumed": 25,
+        "carbTarget": 70
+      },
+      "fat": {
+        "fatConsumed": 15,
+        "fatTarget": 70
+      }
+    },
+    {
+      "userId": 3,
+      "name": "Lysella",
+      "email": "lys.lla@mail.com",
+      "steps": {
+        "stepsWalked": 1152,
+        "stepsTarget": 2000
+      },
+      "date": {
+        "performedDate": "05-07-2022",
+        "scheduledDate": "11-08-2022"
+      },
+      "calories": {
+        "calorieIntake": 1863,
+        "calorieTarget": 4000
+      },
+      "proteins": {
+        "proteinConsumed": 62,
+        "proteinTarget": 70
+      },
+      "carb": {
+        "carbConsumed": 28,
+        "carbTarget": 70
+      },
+      "fat": {
+        "fatConsumed": 18,
+        "fatTarget": 70
+      }
+    }
+  ]
+}
