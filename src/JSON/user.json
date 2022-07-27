@@ -1,91 +1,92 @@
 {
-  "users": [
-    {
-      "userId": 1,
-      "name": "Jhon",
-      "email": "jhondoe@mail.com",
-      "steps": {
-        "stepsWalked": 1422,
-        "stepsTarget": 2000
-      },
-      "date": {
-        "performedDate": "22-07-2022",
-        "scheduledDate": "20-08-2022"
-      },
-      "calories": {
-        "calorieIntake": 2547,
-        "calorieTarget": 4000
-      },
-      "proteins": {
-        "proteinConsumed": 55,
-        "proteinTarget": 70
-      },
-      "carb": {
-        "carbConsumed": 35,
-        "carbTarget": 70
-      },
-      "fat": {
-        "fatConsumed": 50,
-        "fatTarget": 70
-      }
+  "user 1": {
+    "imgUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "userId": 1,
+    "name": "Jhon",
+    "email": "jhondoe@mail.com",
+    "steps": {
+      "stepsWalked": 2422,
+      "stepsTarget": 4000
     },
-    {
-      "userId": 2,
-      "name": "James",
-      "email": "james@mail.com",
-      "steps": {
-        "stepsWalked": 1322,
-        "stepsTarget": 2000
-      },
-      "date": {
-        "performedDate": "15-07-2022",
-        "scheduledDate": "21-08-2022"
-      },
-      "calories": {
-        "calorieIntake": 2163,
-        "calorieTarget": 4000
-      },
-      "proteins": {
-        "proteinConsumed": 52,
-        "proteinTarget": 70
-      },
-      "carb": {
-        "carbConsumed": 25,
-        "carbTarget": 70
-      },
-      "fat": {
-        "fatConsumed": 15,
-        "fatTarget": 70
-      }
+    "date": {
+      "performedDate": "15 Jun",
+      "scheduledDate": "22 Jun"
     },
-    {
-      "userId": 3,
-      "name": "Lysella",
-      "email": "lys.lla@mail.com",
-      "steps": {
-        "stepsWalked": 1152,
-        "stepsTarget": 2000
-      },
-      "date": {
-        "performedDate": "05-07-2022",
-        "scheduledDate": "11-08-2022"
-      },
-      "calories": {
-        "calorieIntake": 1863,
-        "calorieTarget": 4000
-      },
-      "proteins": {
-        "proteinConsumed": 62,
-        "proteinTarget": 70
-      },
-      "carb": {
-        "carbConsumed": 28,
-        "carbTarget": 70
-      },
-      "fat": {
-        "fatConsumed": 18,
-        "fatTarget": 70
-      }
+    "calories": {
+      "calorieIntake": 2547,
+      "calorieTarget": 2500
+    },
+    "proteins": {
+      "proteinConsumed": 55,
+      "proteinTarget": 70
+    },
+    "carb": {
+      "carbConsumed": 25,
+      "carbTarget": 70
+    },
+    "fat": {
+      "fatConsumed": 40,
+      "fatTarget": 70
     }
-  ]
+  },
+  "user 2": {
+    "imgUrl": "https://images.unsplash.com/photo-1602024290243-cb6c7609dd6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "userId": 2,
+    "name": "James",
+    "email": "james@mail.com",
+    "steps": {
+      "stepsWalked": 3102,
+      "stepsTarget": 4000
+    },
+    "date": {
+      "performedDate": "15 Jun",
+      "scheduledDate": "21 July"
+    },
+    "calories": {
+      "calorieIntake": 2163,
+      "calorieTarget": 2500
+    },
+    "proteins": {
+      "proteinConsumed": 52,
+      "proteinTarget": 70
+    },
+    "carb": {
+      "carbConsumed": 25,
+      "carbTarget": 70
+    },
+    "fat": {
+      "fatConsumed": 15,
+      "fatTarget": 70
+    }
+  },
+  "user 3": {
+    "imgUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    "userId": 3,
+    "name": "Lysella",
+    "email": "lys.lla@mail.com",
+    "steps": {
+      "stepsWalked": 2352,
+      "stepsTarget": 4000
+    },
+    "date": {
+      "performedDate": "05 Jun",
+      "scheduledDate": "11 July"
+    },
+    "calories": {
+      "calorieIntake": 1863,
+      "calorieTarget": 2500
+    },
+    "proteins": {
+      "proteinConsumed": 62,
+      "proteinTarget": 70
+    },
+    "carb": {
+      "carbConsumed": 28,
+      "carbTarget": 70
+    },
+    "fat": {
+      "fatConsumed": 18,
+      "fatTarget": 70
+    }
+  }
 }
