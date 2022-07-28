@@ -139,11 +139,7 @@ const User = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div
-              className="text relative"
-              data-tip
-              data-for="custom-color-no-arrow"
-            >
+            <div className="text relative">
               <PieChart
                 lineWidth={20}
                 className="h-16 w-16"
@@ -168,14 +164,16 @@ const User = () => {
                   },
                 ]}
               />
-              <div className="flex flex-col items-center absolute top-4 right-4">
-                <h1 className="text-[14px] font-semibold text-white">
-                  {i.calories.calorieIntake}
-                </h1>
-                <p className="text-[8px] font-extralight text-white">
-                  Calories
-                </p>
-              </div>
+              <a data-tip="custom show" href="/" data-for="user1">
+                <div className="flex flex-col items-center absolute top-4 right-4">
+                  <h1 className="text-[14px] font-semibold text-white">
+                    {i.calories.calorieIntake}
+                  </h1>
+                  <p className="text-[8px] font-extralight text-white">
+                    Calories
+                  </p>
+                </div>
+              </a>
             </div>
 
             <div className="flex flex-col items-center">
@@ -202,12 +200,10 @@ const User = () => {
             </div>
 
             <ReactTooltip
-              id="custom-color-no-arrow"
+              id="user1"
+              globalEventOff="click"
               place="bottom"
-              className="custom-color-no-arrow"
-              delayHide={1000}
               backgroundColor="#333B44"
-              effect="solid"
             >
               <div className="w-[200px] flex flex-col gap-2">
                 <div className="flex flex-col gap-2 bg-shark-500 py-2 px-4 rounded-lg">
@@ -373,11 +369,7 @@ const User = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div
-              className="text relative"
-              data-tip
-              data-for="custom-color-no-arrow2"
-            >
+            <div className="text relative">
               <PieChart
                 lineWidth={20}
                 className="h-16 w-16"
@@ -402,14 +394,16 @@ const User = () => {
                   },
                 ]}
               />
-              <div className="flex flex-col items-center absolute top-4 right-4">
-                <h1 className="text-[14px] font-semibold text-white">
-                  {j.calories.calorieIntake}
-                </h1>
-                <p className="text-[8px] font-extralight text-white">
-                  Calories
-                </p>
-              </div>
+              <a href="/" data-tip data-for="custom-color-no-arrow2">
+                <div className="flex flex-col items-center absolute top-4 right-4">
+                  <h1 className="text-[14px] font-semibold text-white">
+                    {j.calories.calorieIntake}
+                  </h1>
+                  <p className="text-[8px] font-extralight text-white">
+                    Calories
+                  </p>
+                </div>
+              </a>
             </div>
 
             <div className="flex flex-col items-center">
@@ -606,43 +600,41 @@ const User = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div
-              className="text relative"
-              data-tip
-              data-for="custom-color-no-arrow3"
-            >
+            <div className="text relative">
               <PieChart
                 lineWidth={20}
                 className="h-16 w-16"
                 data={[
                   {
-                    title: "One",
+                    title: k.proteins.proteinConsumed,
                     value: k.proteins.proteinConsumed,
                     maxValue: k.proteins.proteinTarget,
                     color: "#F45C84",
                   },
                   {
-                    title: "Two",
+                    title: k.carb.carbConsumed,
                     value: k.carb.carbConsumed,
                     maxValue: k.carb.carbTarget,
                     color: "#F5C90F",
                   },
                   {
-                    title: "Three",
+                    title: k.fat.fatConsumed,
                     value: k.fat.fatConsumed,
                     maxValue: k.fat.fatTarget,
                     color: "#03C7FC",
                   },
                 ]}
               />
-              <div className="flex flex-col items-center absolute top-4 right-4">
-                <h1 className="text-[14px] font-semibold text-white">
-                  {k.calories.calorieIntake}
-                </h1>
-                <p className="text-[8px] font-extralight text-white">
-                  Calories
-                </p>
-              </div>
+              <a href="/" data-tip data-for="custom-color-no-arrow3">
+                <div className="flex flex-col items-center absolute top-4 right-4">
+                  <h1 className="text-[14px] font-semibold text-white">
+                    {k.calories.calorieIntake}
+                  </h1>
+                  <p className="text-[8px] font-extralight text-white">
+                    Calories
+                  </p>
+                </div>
+              </a>
             </div>
 
             <div className="flex flex-col items-center">
