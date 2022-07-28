@@ -29,18 +29,21 @@ const User = () => {
   const j = Users["user 2"];
   const k = Users["user 3"];
 
-  // Feedback controls
-  const feedBack = () => {};
-
   // Formating numbers
   const kFormatter = (num) => {
     return Math.abs(num) > 999
       ? Math.sign(num) * (Math.abs(num) / 1000).toFixed(1) + "k"
       : Math.sign(num) * Math.abs(num);
   };
+  // Load function
+  const load = () => {
+    setFeedBacki(true);
+    setFeedBackj(true);
+    setFeedBackk(true);
+  };
 
   return (
-    <div className="">
+    <div className="" onLoad={load}>
       <div className="flex flex-col p-4 gap-8">
         {/* User 1 */}
         <div
